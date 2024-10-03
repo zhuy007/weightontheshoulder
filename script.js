@@ -80,7 +80,7 @@
                 $("#video-background")[0].load(); 
                 clicked4 = false; 
             } else {
-                $("#video-source").attr("src", "15% w text.mp4");
+                $("#video-source").attr("src", "15% w text r.mp4");
                 $("#video-background")[0].load();  
                 clicked4 = true; 
             }
