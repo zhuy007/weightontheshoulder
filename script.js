@@ -44,7 +44,7 @@
                 $("#video-background")[0].load();  
                 clicked1 = false; 
             } else {
-                $("#video-source").attr("src", "0% w text.mp4");
+                $("#video-source").attr("src", "0% w text2.mp4");
                 $("#video-background")[0].load();  
                 clicked1 = true; 
             }
