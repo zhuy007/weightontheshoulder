@@ -40,11 +40,11 @@
 
         $("#toggle1").click(function() {
             if (clicked1) {
-                $("#video-source").attr("src", "bg final4.mp4");
+                $("#video-source").attr("src", "bg w +.mp4");
                 $("#video-background")[0].load();  
                 clicked1 = false; 
             } else {
-                $("#video-source").attr("src", "0% new text2.mp4");
+                $("#video-source").attr("src", "0% no text.mp4");
                 $("#video-background")[0].load();  
                 clicked1 = true; 
             }
@@ -52,7 +52,7 @@
 
         $("#toggle2").click(function() {
             if (clicked2) {
-                $("#video-source").attr("src", "bg final4.mp4");
+                $("#video-source").attr("src", "bg w +.mp4");
                 $("#video-background")[0].load(); 
                 clicked2 = false; 
             } else {
@@ -64,7 +64,7 @@
 
         $("#toggle3").click(function() {
             if (clicked3) {
-                $("#video-source").attr("src", "bg final4.mp4");
+                $("#video-source").attr("src", "bg w +.mp4");
                 $("#video-background")[0].load();  
                 clicked3 = false; 
             } else {
@@ -76,7 +76,7 @@
 
         $("#toggle4").click(function() {
             if (clicked4) {
-                $("#video-source").attr("src", "bg final4.mp4");
+                $("#video-source").attr("src", "bg w +.mp4");
                 $("#video-background")[0].load(); 
                 clicked4 = false; 
             } else {
@@ -85,4 +85,10 @@
                 clicked4 = true; 
             }
         });
+
+        $(document).ready(function() {
+    $('.invisible-button').on('click', function() {
+        $('#about').toggle(); // Toggle the image container
+    });
+});
 

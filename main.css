@@ -138,17 +138,31 @@ body {
 #toggle3 {
     cursor: pointer;
     position: relative;
-    left: 950px;
+    left: 53.75vw;
     z-index: 1;
     opacity: 0;
+}
+
+#toggle3:hover {
+    opacity: 1;
+    background: whitesmoke;
+    padding-left: 1.6px;
+    padding-right: 1.6px;
 }
 
 #toggle4 {
     cursor: pointer;
     position: relative;
-    left: 1250px;
+    left: 70.1vw;
     z-index: 1;
     opacity: 0;
+}
+
+#toggle4:hover {
+    opacity: 1;
+    background: whitesmoke;
+    padding-left: 1.6px;
+    padding-right: 1.6px;
 }
 
 .weight {
@@ -199,6 +213,50 @@ body {
 }
 
 
+.hover {
+    position: absolute;
+    display: inline-block;
+    padding: 2px;
+    padding-left: 1px;
+    padding-right: 1px;
+    bottom: 4.45vh;
+    left: 14.9vw;
+    font-family: 'BVH Anto Plot Mono Trial';
+    font-size: 11px; 
+    opacity: 0;
+}
+
+.hover:hover {
+    opacity: 1;
+    background: white;
+}
+
+.invisible-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0; 
+    cursor: pointer; 
+}
+
+.about {
+    display: none; 
+    position: fixed; 
+    bottom: 6vh; 
+    left: 7px; 
+    margin: 10px; 
+    width: 327px; 
+    z-index: 10; 
+}
+
+.about img {
+    width: 100%; 
+    height: auto; 
+}
+
+
 @font-face {
     font-family: 'BVH Anto Plot Mono Trial';
     src: url('font/BVHAntoPlotMonoTrial-Regular.woff2') format('woff2'),
@@ -207,4 +265,5 @@ body {
     font-style: normal;
     font-display: swap;
 }
+
 
